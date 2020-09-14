@@ -29,9 +29,9 @@
 .btn-default {
     color: #FFF;
     background: $colororange;
+    box-shadow: 0 1px 6px #ff4c6087;
     &:hover {
-        background: $colorblue;
-        color: #FFF;
+            color: #FFF;
         -webkit-transform: translateY(-3px);
         -moz-transform: translateY(-3px);
         -ms-transform: translateY(-3px);
@@ -47,8 +47,7 @@
     color: #FFF;
     background: $colorblue;
     &:hover {
-        color: #FFF;
-        background: $colororange;
+        box-shadow: rgba(18, 140, 126, 0.2) 0px 8px 15px 0px;
         -webkit-transform: translateY(-3px);
         -moz-transform: translateY(-3px);
         -ms-transform: translateY(-3px);
@@ -56,7 +55,6 @@
         transform: translateY(-3px);
         -webkit-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.2);
         -moz-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.2);
-        box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.2);
     }
 }
 
@@ -71,12 +69,11 @@
 }
 
 .btn-border-light {
-    color: #128C7E;
-    border: solid 2px #128C7E;
-    background: transparent;
+    color: white;
+        background: #128C7E;
     &:hover {
         color: #fff;
-        background: #128C7E;
+    box-shadow: rgba(18, 140, 126, 0.2) 0px 8px 15px 0px;
         -webkit-transform: translateY(-3px);
         -moz-transform: translateY(-3px);
         -ms-transform: translateY(-3px);
