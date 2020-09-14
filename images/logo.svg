@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 639.47 395.38"><defs><style>.cls-1{fill:#fff;}</style></defs><title>logo</title><g id="Layer_2" data-name="Layer 2"><g id="Artwork"><text/><path class="cls-1" d="M113.23,195.66c0,76,17,145,44.65,195.66C70.63,390.94,0,303.49,0,195.66S70.63.38,157.88,0C130.23,50.62,113.23,119.61,113.23,195.66Z"/><polygon class="cls-1" points="598.98 243.08 598.98 391.32 240.58 0 381.54 0 598.98 243.08"/><path class="cls-1" d="M639.47,0H517.63c34.1,24.18,59.93,57,76.48,99.5C601,63.1,615.67,29.78,639.47,0Z"/><path class="cls-1" d="M247.71,391.32H384.92c-34.11-24.18-73.43-80.63-90-123.12C288.09,304.59,282,357.05,247.71,391.32Z"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.5, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 714.5 441.8" style="enable-background:new 0 0 714.5 441.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#353353;}
+</style>
+<title>logo</title>
+<g>
+	<g id="Artwork">
+		<path class="st0" d="M150.8,218.9c0,76,17,145,44.6,195.7c-87.3-0.4-157.9-87.8-157.9-195.7S108.2,23.6,195.4,23.2
+			C167.8,73.8,150.8,142.8,150.8,218.9z"/>
+		<polygon class="st0" points="636.5,266.3 636.5,414.5 278.1,23.2 419.1,23.2 		"/>
+		<path class="st0" d="M677,23.2H555.2c34.1,24.2,59.9,57,76.5,99.5C638.5,86.3,653.2,53,677,23.2z"/>
+		<path class="st0" d="M285.2,414.5h137.2c-34.1-24.2-73.4-80.6-90-123.1C325.6,327.8,319.5,380.3,285.2,414.5z"/>
+	</g>
+</g>
+</svg>

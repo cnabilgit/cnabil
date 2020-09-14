@@ -477,7 +477,7 @@ section {
 /*                      CLIENTS                              
 /*=================================================================*/
 .client-item {
-	min-height: 60px;
+	min-height: 80px;
 	position: relative;
 	.inner {
 	    text-align: center;
@@ -490,9 +490,11 @@ section {
 	    width: 100%;
 	}
 	img {
+		padding: 10px;
 		display: inline-block;
 	}
 }
+
 
 /*=================================================================*/
 /*                      BLOG                              
