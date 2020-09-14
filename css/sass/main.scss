@@ -420,7 +420,9 @@ section {
 	}
 	&.recommended {
 		color: #FFF;
-		background: $colorblue;
+		background: $colorblue
+		
+	;
 		.price {
 			color: #FFF;
 			span {
@@ -566,6 +568,14 @@ section {
 		}
 	}
 }
+.mCS_img_loaded {
+    max-width: 8rem;
+    margin: 0 38px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*=================================================================*/
 /*                      HELPER                              
@@ -575,7 +585,7 @@ section {
 	background: $colorblue;
 	left: 0;
 	top: 0;
-	opacity: .9;
+	opacity: 1;
 	height: 100%;
 	position: absolute;
 	width: 100%;

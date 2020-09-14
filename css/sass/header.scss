@@ -139,9 +139,12 @@ header {
 }
 
 .mobile-header {
-	background: $colorblue;
-	border-radius: 20px;
-	display: none;
+	 background: $colorblue;
+	 border-radius: 50px;
+    padding-bottom: 1rem !important;
+    padding-left: 2rem !important;
+    padding-top: 1rem !important;
+	 display: none;
 	-webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
