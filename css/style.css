@@ -409,6 +409,15 @@ header .copyright {
   height: auto;
   text-align: center;
   padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .site-wrapper {
@@ -1747,7 +1756,7 @@ img.whats-me {
     padding-right: 15px;
   }
   header.left {
-    top: 25px;
+    top: 0px;
     float: none !important;
     -webkit-transform: translateX(-380px);
     transform: translateX(-380px);
