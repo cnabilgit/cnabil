@@ -115,9 +115,9 @@
 
 @media only screen and (max-height: 610px) {
 	header.left {
-		height: 100vh;
-		min-height: 100%;
-		max-height: 100%;
+		height: 100em;
+		min-height: 100em;
+		max-height: 100em;
 		.footer {
 			margin-top: 50px !important;
 		}
