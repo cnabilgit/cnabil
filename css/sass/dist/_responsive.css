@@ -33,7 +33,7 @@
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
-    width: 60% !important;
+    width: 36% !important;
   }
   header.left button.close {
     display: block;
