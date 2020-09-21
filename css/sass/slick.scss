@@ -1,6 +1,9 @@
 /*=================================================================*/
 /*                      SLICK SETTINGS
 /*=================================================================*/
+$colordefault:#415CFB;
+$colororange:#fff;
+
 .slick-slide {
     height: auto;
     outline: none;
@@ -24,6 +27,7 @@
 .slick-next:hover,.slick-next:focus,.slick-prev:hover,.slick-prev:focus {
     background: $colordefault;
 }
+
 
 .slick-prev {
     left: 0;

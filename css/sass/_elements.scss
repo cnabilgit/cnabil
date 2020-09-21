@@ -234,17 +234,18 @@
             margin-right: .3rem;
         }
         a {
-            color: #353353;
-            background: $colororange;
-            border-radius: 50%;
-            display: block;
-            height: 30px;
-            line-height: 32px;
-            text-align: center;
-            width: 30px;
+    color: #ffffff;
+    background:$cnabil;
+    display: block;
+    height: auto;
+    text-align: center;
+    min-width: 36px;
+    padding: 6px;
+    line-height: 24px;
+    border-radius: 10px;
             &:hover {
-                color: $colororange;
-                background: #FFF;
+                color: $cnabil;
+                background: $lb;
             }
         }
     }

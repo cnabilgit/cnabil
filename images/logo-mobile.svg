@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="264" height="203.465" viewBox="0 0 264 203.465">
+  <defs>
+    <filter id="Union_1" x="0" y="0" width="264" height="203.465" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feFlood flood-color="#415cfb" flood-opacity="0"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_118" data-name="Group 118" transform="translate(54 51)">
+    <text id="_" data-name="
+" transform="translate(1.588 87.51)" fill="#fff" font-size="5" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0"></tspan><tspan font-family="MyriadPro-Regular"><tspan x="0" y="6"></tspan></tspan></text>
+    <g transform="matrix(1, 0, 0, 1, -54, -51)" filter="url(#Union_1)">
+      <path id="Union_1-2" data-name="Union 1" d="M0,47.732C0,21.428,17.23.094,38.515,0,31.77,12.349,27.621,29.18,27.621,47.732S31.77,83.116,38.515,95.465C17.23,95.371,0,74.037,0,47.732ZM58.691,0H93.078l53.044,59.3V95.464Zm67.586,0H156a54.347,54.347,0,0,0-11.066,24.271A52.168,52.168,0,0,0,126.276,0Z" transform="translate(54 51)" fill="#fff"/>
+    </g>
+    <path id="Path_4" data-name="Path 4" d="M722.326,1427.786H755.8c-8.32-5.9-17.913-19.669-21.949-30.036C732.178,1406.627,730.694,1419.424,722.326,1427.786Z" transform="translate(-661.898 -1332.322)" fill="#fff"/>
+  </g>
+</svg>

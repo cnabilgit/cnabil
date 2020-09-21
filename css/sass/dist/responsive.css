@@ -5,10 +5,6 @@
   .site-wrapper {
     max-width: 970px;
   }
-
-  main.content {
-    width: 675px;
-  }
 }
 @media only screen and (min-width: 767px) and (max-width: 991px) {
   main.content {
@@ -51,11 +47,6 @@
     float: none !important;
     width: 100%;
     margin-right: 0px;
-  }
-}
-@media only screen and (min-width: 991px) {
-  main.content {
-    margin-right: 2rem;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -102,9 +93,9 @@
 }
 @media only screen and (max-height: 610px) {
   header.left {
-    height: calc(100vh - 50px);
-    min-height: calc(100vh - 50px);
-    max-height: calc(100vh - 50px);
+    height: 100vh;
+    min-height: 100%;
+    max-height: 100%;
   }
   header.left .footer {
     margin-top: 50px !important;

@@ -4,8 +4,7 @@
 
 header {
 	&.left {
-		margin-left: 2rem;
-      width: 20rem;
+      width: 20%;
 		color: #5E5E5F;
 		background: #ffffff;
 		min-height: 100%;
@@ -78,19 +77,28 @@ header {
 	}
 	a {
 		color:$colorgray;
+    font-weight: 500;
+    font-size: 1.3rem;
 		&:hover {
 			color: $cnabil;
 			text-decoration: none;
 		}
+		&::selection{
+    color:$cnabil;
+    background: transparent;
+		}
 	}
 	.site-title {
-		display: block;
-   	 font-size: 24px;
-	 text-align: center!important;
+display: block;
+    font-size: 24px;
+    text-align: center !important;
     width: 100%;
     text-transform: uppercase;
-    font-weight: bolder!important;
-    color: #415cfb;
+    font-weight: bolder !important;
+    color:$cnabil;
+	 letter-spacing: 5px;
+	     margin-top: -20px;
+
 		&.dot {
 			&:after {
 				content: '';
@@ -183,7 +191,7 @@ header {
     width: 100%;
     text-transform: uppercase;
     font-weight: bolder!important;
-    color: #415cfb;
+    color:#fff;
 		&.dot {
 			&:after {
 				content: '';

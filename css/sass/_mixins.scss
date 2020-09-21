@@ -1,19 +1,12 @@
 $fontstack: 'roboto', sans-serif;
 $fontbody: 'roboto', sans-serif;
 $colordefault: #000;
-<<<<<<< HEAD
 $colorblue: linear-gradient(180deg, rgba(65,92,251,1) 0%, rgba(86,64,229,1) 100%);
 $colororange:#fff;
 $colorgray : #5E5E5F;
 $white:#fff;
 $cnabil :#415CFB;
-=======
-$colorblue: #353353;
-$colororange: green;
-<<<<<<< HEAD
->>>>>>> 23fac84522964fa29a5de1c042d1d2bcd8fa02bd
-=======
->>>>>>> 23fac84522964fa29a5de1c042d1d2bcd8fa02bd
+$lb:#EAEDFF;
 
 @mixin transition($second) {
   -webkit-transition: all $second ease-in-out;
