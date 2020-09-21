@@ -12,6 +12,10 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
     <link rel="shortcut icon" type="image/x-icon" href="/images/logo-fav.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300;1,500&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- STYLESHEETS -->
     <link
@@ -76,9 +80,9 @@
           <span></span>
         </button>
         <a href="index.html" class="logo"
-          ><img src="./images/logo.png" alt="Cnabil Logo"
+          ><img src="./images/logo.svg" alt="Cnabil Logo"
         /></a>
-        <a href="index.html" class="site-title dot ml-2">CNABIL</a>
+        <a href="index.html" class="site-title">CNABIL</a>
       </div>
 
       <!-- header -->
@@ -87,11 +91,8 @@
           <span aria-hidden="true">&times;</span>
         </button>
         <div class="header-inner d-flex align-items-start flex-column">
-          <a href="index.html"><img src="./images/logo.png" alt="CNABIL" /></a>
-          <a href="index.html" class="site-title dot mt-3">CNabil</a>
-          <span class="site-slogan"
-            >Front-end Developer <br />& UI UX Designer</span
-          >
+          <a href="index.html"><img src="./images/logo.svg" alt="CNABIL" /></a>
+          <a href="index.html" class="site-title mt-3 text-center">CNabil</a>
 
           <!-- navigation menu -->
           <nav>
@@ -147,12 +148,13 @@
       <main class="content float-right">
         <!-- section hero -->
         <section
-          class="hero background parallax shadow-dark d-flex align-items-center"
+          class="hero background parallax shadow-dark d-flex align-items-start"
           id="home"
           data-image-src="https://via.placeholder.com/900x600"
         >
           <div class="cta mx-auto mt-2">
             <h1 class="mt-0 mb-4">
+              <div class="hero-img"><img src="/images/hero.svg" /></div>
               I’m Creative Nabil<span class="dot"></span>
             </h1>
             <p class="mb-4">
@@ -228,12 +230,9 @@
               >
             </div>
           </div>
-        </section>
-
-        <!-- section skills -->
-        <section id="webskills" class="shadow-blue white-bg padding">
+          <div class="mt-5"></div>
           <h3 class="section-title">Design skills</h3>
-          <div class="row mt-5">
+          <div class="row mt-3">
             <div class="col-md-6">
               <!-- skill item -->
               <div class="skill-item">
@@ -253,9 +252,7 @@
                 <div class="spacer" data-height="50"></div>
               </div>
             </div>
-
             <div class="col-md-6">
-              <!-- skill item -->
               <div class="skill-item">
                 <div class="skill-info clearfix">
                   <h4 class="float-left mb-3 mt-0">Photoshop</h4>
@@ -313,10 +310,9 @@
               </div>
             </div>
           </div>
-        </section>
-        <section id="skills" class="shadow-blue white-bg padding">
+          <div class="mt-5"></div>
           <h3 class="section-title">Web skills</h3>
-          <div class="row mt-5">
+          <div class="row mt-3">
             <div class="col-md-6">
               <!-- skill item -->
               <div class="skill-item">
@@ -356,7 +352,6 @@
                 <div class="spacer" data-height="50"></div>
               </div>
             </div>
-
             <div class="col-md-6">
               <!-- skill item -->
               <div class="skill-item">
@@ -376,7 +371,6 @@
                 <div class="spacer d-md-none d-lg-none" data-height="50"></div>
               </div>
             </div>
-
             <div class="col-md-6">
               <!-- skill item -->
               <div class="skill-item">
@@ -396,50 +390,6 @@
               </div>
             </div>
           </div>
-        </section>
-
-        <!-- section facts -->
-        <section
-          id="facts"
-          class="shadow-dark color-white background parallax padding-50"
-          data-image-src="images/background-1.jpg"
-        >
-          <div class="row relative z-1">
-            <div class="col-md-3 col-sm-6">
-              <!-- fact item -->
-              <div class="fact-item text-center">
-                <i class="icon-like icon-circle"></i>
-                <h2 class="count">157</h2>
-                <span>Projects completed</span>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <!-- fact item -->
-              <div class="fact-item text-center">
-                <i class="icon-cup icon-circle"></i>
-                <h2 class="count">2765</h2>
-                <span>Cup of coffee</span>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <!-- fact item -->
-              <div class="fact-item text-center">
-                <i class="icon-emotsmile icon-circle"></i>
-                <h2 class="count">350</h2>
-                <span>Happy customers</span>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <!-- fact item -->
-              <div class="fact-item text-center">
-                <i class="icon-trophy icon-circle"></i>
-                <h2 class="count">29</h2>
-                <span>Awards won</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="overlay"></div>
         </section>
 
         <!-- section services -->
@@ -694,10 +644,7 @@
               <li class="list-inline-item"><a href="works-2.html">2</a></li>
             </ul>
           </div>
-        </section>
-
-        <!-- section testimonials -->
-        <section id="testimonials" class="shadow-blue white-bg padding">
+          <!-- ici -------------------- -->
           <h3 class="section-title">Testimonials</h3>
           <div class="spacer" data-height="67"></div>
 
@@ -783,11 +730,7 @@
               </div>
             </div>
           </div>
-        </section>
 
-        <!-- section clients -->
-        <section id="clients" class="shadow-blue white-bg padding">
-          <!-- hidden heading for validation -->
           <h2 class="section-title">Clients</h2>
 
           <!-- clients wrapper -->
@@ -838,6 +781,9 @@
             </div>
           </div>
         </section>
+
+        <!-- section testimonials -->
+
         <!-- section contact -->
         <section id="contact" class="shadow-blue white-bg padding">
           <h3 class="section-title">Get in touch</h3>

@@ -1,12 +1,13 @@
 .site-wrapper {
-	width: 1170px;
+	width: 100vw;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 main.content {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	width: 875px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	width: 75vw;
 	-webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -22,12 +23,17 @@ main.content {
     }
 }
 
+
+
+
 .hero {
-	height: 620px;
+	    padding: 30px;
+
+	height: auto;
 	margin-top: 0;
 	.cta {
 		color: #FFF;
-		max-width: 600px;
+    max-width: 80%;
 		z-index: 1;
 		h1 {
 			color: #FFF;
@@ -58,7 +64,8 @@ section {
 	overflow: hidden;
 	margin-top: 50px;
 	&.white-bg {
-		background: #FFF;
+		background: $colorblue;
+;
 	}
 	&.padding {
 		padding: 80px 50px;
@@ -573,7 +580,7 @@ section {
 	}
 }
 .mCS_img_loaded {
-    max-width: 8rem;
+    max-width: 12rem;
     margin: 0 38px;
     position: relative;
     justify-content: center;
@@ -590,6 +597,11 @@ img.whats-me {
 	 fill: white;
 }
 
+.hero-img{
+	    width: 100%;
+    padding: 1%;
+    float: left;
+}
 
 /*=================================================================*/
 /*                      HELPER                              

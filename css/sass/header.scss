@@ -1,17 +1,18 @@
 /*=================================================================*/
 /*                      HEADER                              
 /*=================================================================*/
+
 header {
 	&.left {
-		color: #FFF;
-		background: $colorblue;
-		border-radius: 20px;
-		min-height: 620px;
-		max-height: 620px;
-		top: 50px;
+		margin-left: 2rem;
+      width: 20rem;
+		color: #5E5E5F;
+		background: #ffffff;
+		min-height: 100%;
+		max-height: 100%;
+		top: 0px;
 		overflow: hidden;
 		position: fixed;
-		width: 265px;
 		-webkit-transform: translateX(0);
 	    -moz-transform: translateX(0);
 	    -ms-transform: translateX(0);
@@ -51,8 +52,8 @@ header {
 		    bottom: 20px;
 		}
 		button.close {
-			display: none;
-			outline: none;
+		    display: none;
+		    outline: none;
 		    padding: 0;
 		    background-color: #FFF;
 		    border: 0;
@@ -61,7 +62,7 @@ header {
 		    color: $colororange;
 		    font-weight: 400;
 		    font-size: 16px;
-		    border-radius: 50%;
+		    border-radius: none;
 		    width: 20px;
 		    height: 20px;
 		    line-height: 22px;
@@ -69,19 +70,27 @@ header {
 		    margin-right: 18px;
 		    position: relative;
 		    z-index: 1;
-		}
+		    -webkit-border-radius: none;
+		    -moz-border-radius: none;
+		    -ms-border-radius: none;
+		    -o-border-radius: none;
+}
 	}
 	a {
-		color: #FFF;
+		color:$colorgray;
 		&:hover {
-			color: #FFF;
+			color: $cnabil;
 			text-decoration: none;
 		}
 	}
 	.site-title {
 		display: block;
-		font-size: 28px;
-		font-weight: 700;
+   	 font-size: 24px;
+	 text-align: center!important;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bolder!important;
+    color: #415cfb;
 		&.dot {
 			&:after {
 				content: '';
@@ -113,6 +122,7 @@ header {
 			a {
 				margin-left: 0;
 				padding: 0;
+				font-size: 1.2rem;
 				@include transition(.3s);
 				&:hover {
 					margin-left: 5px;
@@ -120,9 +130,9 @@ header {
 				&.active {
 					&:before {
 						content: '';
-						background: $colororange;
+						background: $cnabil;
 						display: block;
-						height: 18px;
+						height: 22px;
 						left: -30px;
 						top: 7px;
 						position: absolute;
@@ -145,6 +155,8 @@ header {
     padding-left: 2rem !important;
     padding-top: 1rem !important;
 	 display: none;
+	 z-index: 99999999999999;
+    position: relative;
 	-webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -165,9 +177,13 @@ header {
 		}
 	}
 	.site-title {
-	    vertical-align: middle;
-		font-size: 24px;
-		font-weight: 700;
+	 vertical-align: middle;
+	 font-size: 24px;
+	 text-align: center!important;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bolder!important;
+    color: #415cfb;
 		&.dot {
 			&:after {
 				content: '';

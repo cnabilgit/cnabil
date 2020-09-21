@@ -11,7 +11,9 @@
 }
 
 @media only screen and (min-width: 767px) and (max-width: 991px) {
-
+	main.content {
+		margin-right: 2rem;
+	}
 }
 
 @media only screen and (max-width: 991px) {
@@ -42,18 +44,24 @@
 	.mobile-header {
 		display: block;
 	}
+		
+	
 	main.content {
 		margin-top: 20px;
 		float: none !important;
 		width: 100%;
+		margin-right: 0px;
 	}
 }
 
 @media only screen and  (min-width: 991px) {
-
+	main.content {
+		margin-right: 2rem;
+	}
 }
 
 @media only screen and (max-width: 767px) {
+
 	.hero .cta h1 {
 		font-size: 48px;
 		line-height: 1.2;
