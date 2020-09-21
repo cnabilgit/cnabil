@@ -313,11 +313,11 @@ header .copyright {
   transition: all 0.3s ease-in-out;
 }
 .mobile-header.push {
-  -webkit-transform: translateX(295px);
-  -moz-transform: translateX(295px);
-  -ms-transform: translateX(295px);
-  -o-transform: translateX(295px);
-  transform: translateX(295px);
+  transform: translateX(70%) !important;
+  -webkit-transform: translateX(70%) !important;
+  -moz-transform: translateX(70%) !important;
+  -ms-transform: translateX(70%) !important;
+  -o-transform: translateX(70%) !important;
 }
 .mobile-header .logo img {
   max-height: 40px;
@@ -376,7 +376,7 @@ header .copyright {
 
 .site-wrapper {
   width: 100%;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 main.content {
@@ -389,11 +389,11 @@ main.content {
   transition: all 0.3s ease-in-out;
 }
 main.content.push {
-  transform: translateX(295px);
-  -webkit-transform: translateX(295px);
-  -moz-transform: translateX(295px);
-  -ms-transform: translateX(295px);
-  -o-transform: translateX(295px);
+  transform: translateX(70%);
+  -webkit-transform: translateX(70%);
+  -moz-transform: translateX(70%);
+  -ms-transform: translateX(70%);
+  -o-transform: translateX(70%);
 }
 
 .hero {
@@ -1392,6 +1392,9 @@ img.whats-me {
 /*=================================================================*/
 /*                      THEME ELEMENTS
 /*=================================================================*/
+.social-icons li {
+  margin-bottom: 10px;
+}
 .social-icons li:not(:last-child) {
   margin-right: 0.3rem;
 }
@@ -1668,6 +1671,7 @@ img.whats-me {
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
+    width: 60% !important;
   }
   header.left button.close {
     display: block;

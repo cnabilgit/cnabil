@@ -172,12 +172,12 @@ display: block;
     transform: translateX(0);
     @include transition(.3s);
     &.push {
-		-webkit-transform: translateX(295px);
-	    -moz-transform: translateX(295px);
-	    -ms-transform: translateX(295px);
-	    -o-transform: translateX(295px);
-	    transform: translateX(295px);
-    }
+		transform: translateX(70%)!important;
+		-webkit-transform: translateX(70%)!important;
+		-moz-transform: translateX(70%)!important;
+		-ms-transform: translateX(70%)!important;
+		-o-transform: translateX(70%)!important;
+}
 	.logo {
 		img {
 			max-height: 40px;

@@ -342,8 +342,11 @@ header .copyright {
 }
 
 .mobile-header.push {
-  -webkit-transform: translateX(295px);
-  transform: translateX(295px);
+  transform: translateX(70%) !important;
+  -webkit-transform: translateX(70%) !important;
+  -moz-transform: translateX(70%) !important;
+  -ms-transform: translateX(70%) !important;
+  -o-transform: translateX(70%) !important;
 }
 
 .mobile-header .logo img {
@@ -410,7 +413,7 @@ header .copyright {
 
 .site-wrapper {
   width: 100%;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 main.content {
@@ -418,14 +421,17 @@ main.content {
   margin-bottom: 2rem;
   width: 75%;
   -webkit-transform: translateX(0);
-  transform: translateX(0);
+          transform: translateX(0);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 main.content.push {
-  -webkit-transform: translateX(295px);
-  transform: translateX(295px);
+  transform: translateX(70%);
+  -webkit-transform: translateX(70%);
+  -moz-transform: translateX(70%);
+  -ms-transform: translateX(70%);
+  -o-transform: translateX(70%);
 }
 
 .hero {
@@ -1482,6 +1488,10 @@ img.whats-me {
 /*=================================================================*/
 /*                      THEME ELEMENTS
 /*=================================================================*/
+.social-icons li {
+  margin-bottom: 10px;
+}
+
 .social-icons li:not(:last-child) {
   margin-right: .3rem;
 }
@@ -1575,7 +1585,7 @@ img.whats-me {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background: #000;
+  background: #415CFB;
   border-radius: 0;
   top: calc(50% - 40px);
   z-index: 1;
@@ -1584,7 +1594,7 @@ img.whats-me {
 }
 
 .slick-next:hover, .slick-next:focus, .slick-prev:hover, .slick-prev:focus {
-  background: #000;
+  background: #415CFB;
 }
 
 .slick-prev {
@@ -1592,7 +1602,7 @@ img.whats-me {
 }
 
 .slick-prev:hover {
-  background: #000;
+  background: #415CFB;
 }
 
 .slick-next {
@@ -1600,7 +1610,7 @@ img.whats-me {
 }
 
 .slick-next:hover {
-  background: #000;
+  background: #415CFB;
 }
 
 .slick-next:before, .slick-next:after {
@@ -1745,6 +1755,7 @@ img.whats-me {
   header.left.open {
     -webkit-transform: translateX(0);
     transform: translateX(0);
+    width: 60% !important;
   }
   header.left button.close {
     display: block;

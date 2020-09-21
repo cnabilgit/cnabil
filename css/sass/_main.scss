@@ -6,7 +6,7 @@
 }
 .site-wrapper {
 	width: 100%;
-	 padding: 3rem;
+	 padding: 2rem;
 	}
 
 main.content {
@@ -17,12 +17,12 @@ main.content {
 	@include transition(0.3s);
 	 
 	&.push {
-		transform:translateX(295px);
-		-webkit-transform:translateX(295px);
-		-moz-transform:translateX(295px);
-		-ms-transform:translateX(295px);
-		-o-transform:translateX(295px);
-   }
+		transform:translateX(70%);
+		-webkit-transform:translateX(70%);
+		-moz-transform:translateX(70%);
+		-ms-transform:translateX(70%);
+		-o-transform:translateX(70%);
+}
 
 }
 
