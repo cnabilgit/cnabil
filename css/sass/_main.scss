@@ -256,20 +256,20 @@ section {
 		}
 	}
 	.details {
-		color: #FFF;
 		position: absolute;
 		padding: 0 25px;
 		top: 25px;
 		width: 100%;
 		z-index: 1;
 		h4 {
-			color: #FFF;
+			color: $cnabil;
 			margin: 0 0 4px;
 			opacity: 0;
 			transform: translateY(30px);
     		transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
 		}
 		span {
+			color: $colorgray;
 			font-size: 12px;
 			opacity: 0;
 			display: block;
@@ -278,8 +278,8 @@ section {
 		}
 	}
 	.plus-icon {
-		color: $colororange;
-		background: #FFF;
+		color: whitesmoke;
+		background: $cnabil;
 		border-radius: 100%;
 		position: absolute;
 		font-size: 16px;
@@ -358,6 +358,7 @@ section {
 		font-size: 14px;
 		font-weight: 400;
 		position: relative;
+		 margin-bottom: 1rem;
 		&:hover {
 			color: #000;
 			&:after {
