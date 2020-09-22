@@ -433,7 +433,7 @@ header .copyright {
 
 .site-wrapper {
   width: 90% !important;
-  padding: 2rem;
+  padding: 1rem;
   margin: auto !important;
 }
 
@@ -1085,7 +1085,7 @@ img.whats-me {
 
 .hero-img {
   width: 100%;
-  padding: 1%;
+  padding: 6%;
   float: left;
 }
 
@@ -1144,6 +1144,7 @@ img.whats-me {
 .shadow-dark {
   -webkit-box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
+  padding: 80px 10%;
 }
 
 .parallax {
@@ -1784,7 +1785,7 @@ img.whats-me {
   header.left.open {
     -webkit-transform: translateX(0);
     transform: translateX(0);
-    width: 60vw !important;
+    width: 50vw !important;
   }
   header.left button.close {
     display: block;
@@ -1822,6 +1823,9 @@ img.whats-me {
   }
   .blog-item {
     margin: 15px 0;
+  }
+  h4 {
+    font-size: 24px;
   }
 }
 
