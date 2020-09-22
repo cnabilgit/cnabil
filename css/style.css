@@ -463,7 +463,7 @@ main.content.push {
 
 .hero .cta {
   color: #FFF;
-  max-width: 80%;
+  max-width: 100%;
   z-index: 1;
 }
 
@@ -501,7 +501,7 @@ section.white-bg {
 }
 
 section.padding {
-  padding: 80px 50px;
+  padding: 80px 10%;
 }
 
 section.padding-50 {
