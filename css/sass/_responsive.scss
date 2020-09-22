@@ -3,7 +3,10 @@
 /*=================================================================*/
 @media (max-width: 1200px) and (min-width: 991px) {
 	.site-wrapper {
-		max-width: 970px;
+		max-width: 90% !important;
+	}
+		main.content {
+max-width: 70% !important;
 	}
 
 }
@@ -88,10 +91,10 @@
 
 @media only screen and (max-width: 515px) {
 	.pf-filter-wrapper {
-		display: block;
+		display: none;
 	}
 	.portfolio-filter {
-		display: none;
+		display: block;
 	}
 	.hero .cta h1 {
 		font-size: 36px;

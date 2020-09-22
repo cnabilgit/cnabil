@@ -421,7 +421,7 @@ header .copyright {
 }
 
 .site-wrapper {
-  width: 100%;
+  width: 90% !important;
   padding: 2rem;
   margin: auto !important;
 }
@@ -1282,7 +1282,7 @@ img.whats-me {
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: #fff;
+  background-color: #415CFB;
   border-radius: 100%;
   -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
   animation: sk-bounce 2.0s infinite ease-in-out;
@@ -1740,7 +1740,10 @@ img.whats-me {
 /*=================================================================*/
 @media (max-width: 1200px) and (min-width: 991px) {
   .site-wrapper {
-    max-width: 970px;
+    max-width: 90% !important;
+  }
+  main.content {
+    max-width: 70% !important;
   }
 }
 
@@ -1808,10 +1811,10 @@ img.whats-me {
 
 @media only screen and (max-width: 515px) {
   .pf-filter-wrapper {
-    display: block;
+    display: none;
   }
   .portfolio-filter {
-    display: none;
+    display: block;
   }
   .hero .cta h1 {
     font-size: 36px;
