@@ -131,19 +131,25 @@ section {
 	border: solid 1px #EFEFEF;
 	border-radius: 10px;
 	padding: 30px 20px;
+	overflow: hidden;
 	@include transition(.3s);
-	h4, i {
+	 i {
 		@include transition(.3s);
+		font-size: 3em;
+	}
+	h4{
+	@include transition(.3s);
+
 	}
 	&:hover {
-		border-color: $colororange;
+		border-color: $white;
 		background: $colororange;
-		color: #FFF;
+		color: $cnabil;
 		-webkit-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.15);
 		-moz-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.15);
 		box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.15);
 		h4, i {
-			color: #FFF;
+			color: $cnabil;
 		}
 	}
 }
