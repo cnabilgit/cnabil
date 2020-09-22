@@ -1073,9 +1073,7 @@ section.padding-60 {
 }
 
 img.img-profile {
-  border: 4px solid #ff4c6000;
-  -webkit-box-shadow: 0 0 5px #00000045;
-          box-shadow: 0 0 5px #00000045;
+  width: 100%;
 }
 
 img.whats-me {
