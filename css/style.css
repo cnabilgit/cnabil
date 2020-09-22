@@ -321,8 +321,13 @@ header .vertical-menu li a.active:before {
 }
 
 header .copyright {
-  font-size: 12px;
-  opacity: .7;
+  font-size: 16px;
+  color: #5E5E5F;
+}
+
+header .copyright a {
+  font-size: 16px;
+  color: #415CFB;
 }
 
 .mobile-header {
@@ -652,7 +657,7 @@ section.padding-60 {
   margin: 0 0 6em;
   float: right;
   width: 80%;
-  padding-left: 60px;
+  padding-left: 30px;
 }
 
 .entry .body p {
@@ -724,15 +729,17 @@ section.padding-60 {
   background: #415CFB;
   border-radius: 100%;
   position: absolute;
-  font-size: 16px;
-  left: 25px;
-  bottom: 25px;
+  font-size: 36px;
+  bottom: 10%;
+  left: 40%;
   opacity: 0;
-  line-height: 32px;
+  line-height: 55px;
   text-align: center;
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   z-index: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }

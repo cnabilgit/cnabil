@@ -151,8 +151,14 @@ display: block;
 		}
 	}
 	.copyright {
-		font-size: 12px;
-		opacity: .7;
+    font-size: 16px;
+	 color: $colorgray;
+	 a{
+			  font-size: 16px;
+			  	 color: $cnabil;
+
+			  
+	 }
 	}
 }
 

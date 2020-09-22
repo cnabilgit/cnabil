@@ -230,7 +230,7 @@ section {
 	margin: 0 0 6em;
 	float: right;
 	width: 80%;
-	padding-left: 60px;
+	padding-left: 30px;
 	p {
 		margin-bottom: 0;
 	}
@@ -290,19 +290,21 @@ section {
 		}
 	}
 	.plus-icon {
-		color: whitesmoke;
-		background: $cnabil;
-		border-radius: 100%;
-		position: absolute;
-		font-size: 16px;
-		left: 25px;
-		bottom: 25px;
-		opacity: 0;
-		line-height: 32px;
-		text-align: center;
-		height: 30px;
-		width: 30px;
-		z-index: 1;
+    color: whitesmoke;
+    background: #415CFB;
+    border-radius: 100%;
+    position: absolute;
+    font-size: 36px;
+    bottom: 10%;
+    left: 40%;
+    opacity: 0;
+    line-height: 55px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 		@include transition(.3s);
 	}
 	.mask {
