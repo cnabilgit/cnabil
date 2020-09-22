@@ -203,7 +203,7 @@
     height: 3px;
     margin-bottom: 0;
     overflow: hidden;
-    background-color: #EBEBEB;
+    background-color:$cdark;
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -215,9 +215,9 @@
     height: 100%;
     font-size: 12px;
     line-height: 3px;
-    color: #fff;
+    color: $clight;
     text-align: center;
-    background-color: $colororange;
+    background-color: $clight;
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: width .6s ease;

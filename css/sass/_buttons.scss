@@ -47,10 +47,11 @@
 
 .btn-alt {
     color: #FFF;
-    background: $colorblue;
+    background: $cdark;
+        box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.2);
+
     &:hover {
         color: #FFF;
-        box-shadow: rgba(18, 140, 126, 0.2) 0px 8px 15px 0px;
         -webkit-transform: translateY(-3px);
         -moz-transform: translateY(-3px);
         -ms-transform: translateY(-3px);
@@ -58,6 +59,9 @@
         transform: translateY(-3px);
         -webkit-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.2);
         -moz-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.2);
+        border:2px solid $white;
+
     }
 }
 
@@ -89,12 +93,6 @@
         border:2px solid $white;
 
     }
-}
-
-#submit {
-    background: #009688;
-    box-shadow: 0 1px 6px #64bbb2;
-    font-size: 16px;
 }
 
 
