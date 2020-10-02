@@ -1849,6 +1849,9 @@ img.whats-me {
   .hero .cta h1 {
     font-size: 36px;
   }
+  .hero-img {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-height: 610px) {
