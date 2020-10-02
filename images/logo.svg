@@ -1,28 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="264" height="203.465" viewBox="0 0 264 203.465">
+<svg id="Group_3" data-name="Group 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="408.7" height="213.2" viewBox="0 0 408.7 213.2">
   <defs>
-    <linearGradient id="linear-gradient" x1="0.034" y1="0.416" x2="0.965" y2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#5640e5"/>
-      <stop offset="1" stop-color="#415cfb"/>
+    <linearGradient id="linear-gradient" x1="-1.901" y1="14.028" x2="3.922" y2="11.043" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#415cfb"/>
+      <stop offset="1" stop-color="#5640e5"/>
     </linearGradient>
-    <filter id="Union_1" x="0" y="0" width="264" height="203.465" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="18" result="blur"/>
-      <feFlood flood-color="#415cfb" flood-opacity="0"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#5640e5"/>
-      <stop offset="0.675" stop-color="#4b4ff1"/>
-      <stop offset="1" stop-color="#415cfb"/>
-    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-4.796" y1="15.256" x2="1.027" y2="12.271" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-0.778" y1="1.167" x2="1.164" y2="0.173" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="-0.261" y1="0.805" x2="3.623" y2="-0.189" xlink:href="#linear-gradient"/>
   </defs>
-  <g id="Group_1" data-name="Group 1" transform="translate(54 51)">
-    <text id="_" data-name="
-" transform="translate(1.588 87.51)" fill="#fff" font-size="5" font-family="MyriadPro-Regular, Myriad Pro"><tspan x="0" y="0"></tspan><tspan font-family="MyriadPro-Regular"><tspan x="0" y="6"></tspan></tspan></text>
-    <g transform="matrix(1, 0, 0, 1, -54, -51)" filter="url(#Union_1)">
-      <path id="Union_1-2" data-name="Union 1" d="M0,47.732C0,21.428,17.23.094,38.515,0,31.77,12.349,27.621,29.18,27.621,47.732S31.77,83.116,38.515,95.465C17.23,95.371,0,74.037,0,47.732ZM58.691,0H93.078l53.044,59.3V95.464Zm67.586,0H156a54.347,54.347,0,0,0-11.066,24.271A52.168,52.168,0,0,0,126.276,0Z" transform="translate(54 51)" fill="url(#linear-gradient)"/>
-    </g>
-    <path id="Path_4" data-name="Path 4" d="M722.326,1427.786H755.8c-8.32-5.9-17.913-19.669-21.949-30.036C732.178,1406.627,730.694,1419.424,722.326,1427.786Z" transform="translate(-661.898 -1332.322)" fill="url(#linear-gradient-2)"/>
+  <g id="Group_1" data-name="Group 1" opacity="0.8">
+    <path id="Path_1" data-name="Path 1" d="M231,213.2H159.9a70.632,70.632,0,0,0,14.4-15,118.388,118.388,0,0,0,17.8-35.5,75.192,75.192,0,0,0,3.4-20.5,70.992,70.992,0,0,0,3.4,20.5,109.865,109.865,0,0,0,7.4,18.5,113.743,113.743,0,0,0,10.4,17A67.8,67.8,0,0,0,231,213.2Z" fill="url(#linear-gradient)"/>
   </g>
+  <g id="Group_2" data-name="Group 2" opacity="0.8">
+    <path id="Path_2" data-name="Path 2" d="M408.7,0a73.659,73.659,0,0,0-14.5,15,115.1,115.1,0,0,0-17.7,35.5A75.829,75.829,0,0,0,373.1,71a70.992,70.992,0,0,0-3.4-20.5A118.594,118.594,0,0,0,362.4,32,113.743,113.743,0,0,0,352,15,73.178,73.178,0,0,0,337.6,0Z" fill="url(#linear-gradient-2)"/>
+  </g>
+  <path id="Path_3" data-name="Path 3" d="M390.9,213.2a144.443,144.443,0,0,1-20.3-6.3c-6.5-2.4-12.6-5.2-18.7-8a316.9,316.9,0,0,1-34.1-19.2,360.1,360.1,0,0,1-58.6-48A369.957,369.957,0,0,1,211.3,73a278.422,278.422,0,0,1-19.2-34.1c-2.8-6-5.6-12.2-8-18.6A159.383,159.383,0,0,1,177.7,0,144.857,144.857,0,0,1,198,6.4c6.5,2.4,12.6,5.2,18.6,8a316.9,316.9,0,0,1,34.1,19.2,369.957,369.957,0,0,1,58.7,47.9,364.409,364.409,0,0,1,48,58.6,278.421,278.421,0,0,1,19.2,34.1c2.8,6.1,5.6,12.2,8,18.7A144.445,144.445,0,0,1,390.9,213.2Z" fill="url(#linear-gradient-3)"/>
+  <path id="Path_4" data-name="Path 4" d="M96.7,199.9a91.821,91.821,0,0,0,9.9,13.3A106.6,106.6,0,0,1,106.6,0a100.112,100.112,0,0,0-9.8,13.4,116.117,116.117,0,0,0-7.5,13.3A160.909,160.909,0,0,0,78.8,53.4a188.763,188.763,0,0,0-7.7,53.3A185.041,185.041,0,0,0,78.6,160a165.3,165.3,0,0,0,10.5,26.6C91.4,191.1,94,195.6,96.7,199.9Z" fill="url(#linear-gradient-4)"/>
 </svg>

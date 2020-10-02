@@ -414,6 +414,10 @@ header .copyright a {
   text-decoration: none;
 }
 
+img.logo-img {
+  max-width: 8em;
+}
+
 .logo-container {
   width: 100%;
   height: auto;
@@ -558,6 +562,7 @@ section.padding-60 {
   border-radius: 10px;
   padding: 30px 20px;
   overflow: hidden;
+  min-height: 17rem;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -1793,7 +1798,7 @@ img.whats-me {
     width: 50vw !important;
   }
   header.left button.close {
-    display: block;
+    display: none;
   }
   .mobile-header {
     display: block;

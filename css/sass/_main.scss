@@ -2,6 +2,11 @@
 	color: white;
 	text-decoration: none;
 }
+
+img.logo-img {
+    max-width: 8em;
+}
+
 .logo-container {
     width: 100%;
     height: auto;
@@ -138,6 +143,7 @@ section {
 	border-radius: 10px;
 	padding: 30px 20px;
 	overflow: hidden;
+	min-height: 17rem;
 	@include transition(.3s);
 	 i {
 		@include transition(.3s);
